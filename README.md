@@ -44,5 +44,3 @@ Contributions are welcome! Feel free to submit issues, fork the repository, and 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-**Note:** This is a sample README file. Please customize it according to your project's specifics.
