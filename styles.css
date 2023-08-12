@@ -1,0 +1,157 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} */
+
+.header-list li a img{
+    width: 100px;
+    padding-right: 25px;
+}
+
+/* Your existing CSS for the navbar */
+.header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-list li {
+    margin: 0 10px;
+}
+
+.header-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Basic styling for the form container */
+.container {
+    background-color: white; 
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for headings */
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 20px 0px;
+}
+
+/* Styling for form sections */
+.section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Styling for labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Styling for radio buttons */
+label[for="agreement"] {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Apply gradient background to the entire webpage except the form */
+.body-background {
+    background: linear-gradient(100deg, #3d21a0, #5165ae, #50a4bb, #24e5c6);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Styling for radio buttons */
+input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px; /* Add some spacing between the radio icon and the text */
+}
+
+label[for="male"], label[for="female"], label[for="other"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Media query for mobile phones and smaller screens */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    
+    .logo {
+        max-width: 80px;
+        padding-right: 0px;
+    }
+}
