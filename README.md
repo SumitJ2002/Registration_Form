@@ -1,6 +1,6 @@
-# Student Registration Form Web Application
+# Code Crafters Registration Form Web Application
 
-Welcome to the Student Registration Form Web Application! This is a simple web-based application that allows students to register by providing their personal, contact, and educational information. The project aims to provide an easy-to-use registration form that collects necessary details from students for administrative purposes.
+Welcome to the Registration Form Web Application! This is a simple web-based application that allows students to register by providing their personal, contact, and educational information. The project aims to provide an easy-to-use registration form that collects necessary details from students for administrative purposes.
 
 ## Features
 
